@@ -1,0 +1,65 @@
+/* Container for login */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.9); /* Light background for the form */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+}
+
+/* Heading for login */
+.login-container h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+/* Form styles */
+.login-container form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* Input field styles */
+.login-container input {
+  margin-bottom: 1rem;
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+/* Input focus effect */
+.login-container input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+/* Submit button styles */
+.login-container button {
+  padding: 12px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-container button:hover {
+  background-color: #0056b3;
+}
+
+.login-container button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
